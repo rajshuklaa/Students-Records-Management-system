@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="form.php">
+    <link rel="stylesheet" href="form.sql">
+    <link rel="stylesheet" href="connectform.php">
+    <link rel="stylesheet" href="form.js">
+</head>
+
+<body>
+    <h2>Student Registration Form</h2>
+    <form action="form.php" method="POST">
+        <label>Name:</label><br>
+        <input type="text" placeholder="input your full name" name="name" required><br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="enter your email id" name="email" required><br>
+
+        <label>Course:</label><br>
+        <input type="text" placeholder="enter your course name " name="course" required><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+    <div id="successBox" class="hidden">
+        <div class="checkmark">✅</div>
+        <h3>Registration Successful!</h3>
+    </div>
+</body>
+
+</html>
